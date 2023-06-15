@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     SettingsProviderResOverlayRenoir \
     SettingsResOverlayRenoir \
     SystemUIResOverlayRenoir \
+    NfcResRenoir \
     WifiResOverlayRenoir
 
 # Soong namespaces
