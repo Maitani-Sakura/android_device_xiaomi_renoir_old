@@ -15,6 +15,9 @@ include vendor/xiaomi/renoir-firmware/BoardConfigVendor.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := renoir
 
+# Camera
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 
